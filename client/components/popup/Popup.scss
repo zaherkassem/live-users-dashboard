@@ -1,0 +1,21 @@
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  .close{
+    float: right;
+    font-size: 30px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    clear: both;
+  }
+  .content {
+    margin-top: 40px;
+    min-width: 400px;
+  }
+}

@@ -1,0 +1,17 @@
+$body-bgColor: #f2f2f2;
+$card-bgColor: #fff;
+
+body {
+   background-color: $body-bgColor !important;
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+.card {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    background-color: $card-bgColor;
+}
